@@ -1,4 +1,4 @@
-/* ====== CONFIGURAÇÕES GERAIS ====== */
+/*CONFIGURAÇÕES GERAIS*/
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   font-family: inherit;
 }
 
-/* ====== CABEÇALHO ====== */
+/*CABEÇALHO*/
 header {
   position: relative;
   padding: 4rem 1rem;
@@ -27,7 +27,7 @@ header {
   text-align: center;
 }
 
-/* ====== MENU ====== */
+/*MENU*/
 .menu-container {
   position: absolute;
   top: 1rem;
@@ -55,7 +55,7 @@ button {
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
-  display: none; /* começa invisível */
+  display: none; /*começa invisível*/
   z-index: 1000;
   transition: opacity 0.3s ease;
 }
@@ -83,7 +83,7 @@ button {
 }
 
 .menu-aberto {
-  max-height: 500px; /* ajuste conforme o tamanho do seu menu */
+  max-height: 500px;
   opacity: 1;
 }
 
@@ -94,7 +94,7 @@ button {
   margin: 5px 0;
 }
 
-/* ====== SEÇÕES ====== */
+/*SEÇÕES*/
 main {
   display: flex;
   flex-direction: column;
@@ -114,14 +114,13 @@ section {
   max-width: 800px;
   padding: 1rem;
 }
-
-/* Centraliza o texto “Destaques da Semana” */
+/* Destaques */
 .introdestaques {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-/* Destaques */
+
 .destaques {
   display: flex;
   flex-wrap: wrap;
@@ -138,7 +137,7 @@ figure {
   max-width: 350px;
 }
 
-/* ====== CURIOSIDADES ====== */
+/*CURIOSIDADES*/
 .curiosidades {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -164,7 +163,7 @@ figure {
   padding: 0 1rem;
 }
 
-/* ====== IMAGENS ====== */
+/*IMAGENS*/
 img {
   max-width: 100%;
   height: auto;
@@ -189,7 +188,7 @@ img {
   width: 16rem;
 }
 
-/* ====== TÍTULOS ====== */
+/*TÍTULOS*/
 h2 {
   color: #3e2f1c;
 }
@@ -204,20 +203,20 @@ h3 {
   padding-bottom: 1rem;
 }
 
-/* ====== LISTAS ====== */
+/*LISTAS*/
 ol,
 ul {
   padding: 1rem 2rem;
   text-align: left;
 }
 
-/* ====== LINKS =====*/
+/*LINKS*/
 a {
   color: #053116;
   text-decoration: none;
 }
 
-/* ====== RODAPÉ ====== */
+/*RODAPÉ*/
 footer {
   text-align: center;
   color: #053116b9;
@@ -228,7 +227,7 @@ footer a {
   color: #053116d4;
 }
 
-/* ====== RESPONSIVIDADE ====== */
+/*RESPONSIVIDADE*/
 @media (max-width: 1024px) {
   header {
     padding: 3rem 1rem;
@@ -255,7 +254,7 @@ footer a {
   }
 }
 
-/* ====== CELULARES ====== */
+/*CELULARES*/
 @media (max-width: 600px) {
   header {
     padding: 2rem 1rem;
