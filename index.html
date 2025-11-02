@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog | Sabores da cozinha</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu-container">
+                <button onclick="toggleMenu()">☰ Menu</button>
+                <nav id="menu" class="menu-fechado">
+                    <a href="index.html">Início</a>
+                    <a href="receitamacarrao.html">Macarrão</a>
+                    <a href="receitafrangoassado.html">Frango</a>
+                </nav>
+            </div>
+            <h1>Blog - Sabores da cozinha</h1>
+            <p>Receitas caseiras - Pratos Simples e Saborosos para alegrarem seus dias!</p><br>
+        </header>
+
+        <main>
+            <!--introdução-->
+            <section class="intro">
+                <nav>
+                    <h2>Sobre esse blog</h2>
+                    <p>Este blog reúne receitas práticas para o dia a dia, com ingredientes acessíveis e preparo descomplicado. A proposta é oferecer opções variadas para quem busca refeições completas e saborosas, sem complicação.</p>
+                </nav>
+            </section>
+            <!--Seção 1:Destaques da Semana-->
+            <section>
+                <nav class="introdestaques">
+                    <h2>Destaques da Semana</h2>
+                    <p>Descubra duas receitas que fazem sucesso na cozinha:</p>
+                </nav>
+                    <nav class="destaques">
+                        <figure>
+                            <a href="receitamacarrao.html"><h3>Macarrão com molho de tomate</h3></a>
+                            <img src="imagens/macarrao.jpg" alt="Prato de macarrão ao molho."><br>
+                            <figcaption>Uma receita clássica e reconfortante, feita com tomates frescos, alho, cebola e ervas aromáticas. O molho é preparado de forma simples e natural, realçando o sabor do macarrão e trazendo aquele toque caseiro que agrada a todos.</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="receitafrangoassado.html"><h3>Frango assado com legumes</h3></a>
+                            <img src="imagens/frangoassado.jpg" alt="Prato de frango assado com legumes." class="imgfrango"><br>
+                            <figcaption>Prato tradicional que combina frango temperado com alho, limão e ervas frescas, assado lentamente ao lado de batatas douradas. Ideal para refeições completas, é uma opção prática e cheia de sabor para qualquer dia da semana.</figcaption>
+                        </figure>
+                    </nav>
+            </section>
+            <!--Seção 2:Curiosidades culinárias-->
+            <section>
+                <h2 class="h2-curiosidade">Curiosidades culinárias</h2>
+                <nav class="curiosidades">
+                    <figure>
+                        <h3>Saiba mais sobre o manjericão</h3>
+                            <img src="imagens/manjericao.jpg" alt=""><br>
+                            <figcaption>Você sabia que o manjericão é uma das ervas mais utilizadas na culinária mediterrânea? Clique abaixo para descobrir mais curiosidades.</figcaption><br>
+                            <details>
+                                <summary>Saiba mais</summary>
+                                <p>O manjericão é uma erva aromática amplamente utilizada na culinária mediterrânea, especialmente em países como Itália, Grécia e França. Seu sabor fresco e levemente adocicado combina perfeitamente com tomates, massas, azeite de oliva e queijos, tornando-se um ingrediente essencial em pratos como o molho pesto, saladas caprese e pizzas artesanais.</p>
+                                <p>Além de seu uso gastronômico, o manjericão também é valorizado por suas propriedades medicinais. Ele possui compostos antioxidantes e anti-inflamatórios, podendo contribuir para o fortalecimento do sistema imunológico e o alívio de problemas digestivos leves.</p>
+                                <p>Na cozinha, o ideal é utilizar o manjericão fresco, adicionando-o ao final do preparo para preservar seu aroma e sabor. Suas folhas delicadas podem ser picadas ou usadas inteiras como decoração. Também é possível cultivar manjericão em casa, em vasos ou hortas, pois ele se adapta bem a ambientes ensolarados e exige poucos cuidados.</p>
+                                <p>Curiosamente, existem diferentes variedades de manjericão, como o manjericão roxo, tailandês e limão, cada um com características únicas de sabor e aroma. Essa diversidade faz da erva um ingrediente versátil e querido por chefs e cozinheiros do mundo todo.</p>
+                            </details>
+                    </figure>   
+                    <figure>
+                        <h3>Alho — Aroma e Versatilidade na Cozinha</h3>
+                        <img src="imagens/alho.jpg" alt=""><br>
+                        <figcaption>Você sabia que o alho libera mais sabor quanto mais for triturado? </figcaption><br>
+                        <details>
+                            <summary>Saiba mais</summary>
+                            <p>O alho é um dos ingredientes mais utilizados na culinária mundial. Seu sabor marcante e aroma característico fazem dele uma base essencial para refogados, molhos e marinadas. Rico em compostos sulfurados, o alho também possui propriedades antimicrobianas e antioxidantes, sendo valorizado tanto na cozinha quanto na medicina tradicional.</p>
+                            <p>Na hora de usar, o alho pode ser picado, amassado ou fatiado, dependendo da intensidade de sabor desejada. Quanto mais triturado, mais forte será seu aroma.Isso acontece porque seus compostos aromáticos se intensificam ao entrar em contato com o ar. É comum dourá-lo no azeite para liberar seus óleos e criar uma base saborosa para diversos pratos.</p>
+                        </details>
+                    </figure>
+                    <figure>
+                        <h3> Limão — Frescor e Equilíbrio de Sabores</h3>
+                        <img src="imagens/limão.jpg" alt=""><br>
+                        <figcaption>Você sabia que o limão ajuda a realçar o sabor dos alimentos sem adicionar sal? Seu toque ácido equilibra pratos gordurosos e é usado até para “cozinhar” peixes em receitas como ceviche.</figcaption><br>
+                        <details>
+                            <summary>Saiba mais</summary>
+                            <p>O limão é uma fruta cítrica que traz acidez e frescor às receitas. Usado em marinadas, molhos, sobremesas e bebidas, ele ajuda a realçar sabores e equilibrar pratos mais gordurosos. Existem diferentes tipos de limão, como o tahiti, siciliano e galego, cada um com características próprias de sabor e aroma.</p>
+                            <p>Além do suco, a casca do limão (raspas) é rica em óleos essenciais e pode ser usada para aromatizar massas, bolos e molhos. O limão também é fonte de vitamina C e tem propriedades digestivas, sendo um aliado tanto na cozinha quanto na saúde.</p>
+                        </details>
+                    </figure>
+                    <figure>
+                        <h3> Batata — Versátil, Nutritiva e Confortável</h3>
+                        <img src="imagens/batatas.jpg" alt=""><br>
+                        <figcaption>Você sabia que a batata é composta por cerca de 80% de água? Apesar de ser conhecida como fonte de carboidrato, ela é leve e versátil, podendo ser usada em pratos principais, acompanhamentos e até massas.</figcaption><br>
+                        <details>
+                            <summary>Saiba mais</summary>
+                            <p>A batata é um dos ingredientes mais versáteis da culinária. Pode ser cozida, assada, frita ou amassada, e combina com praticamente qualquer tipo de prato. Rica em carboidratos, ela fornece energia e tem sabor neutro, o que permite diversas combinações de temperos e técnicas de preparo.</p>
+                            <p>Na culinária caseira, a batata é presença constante em acompanhamentos, purês, saladas e pratos principais. Quando assada com ervas e azeite, ganha textura crocante e aroma irresistível. É também uma excelente base para receitas simples e reconfortantes.</p>
+                        </details>
+                    </figure>
+                </nav>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy 2025 Blog | Sabores da cozinha. Todos os direitos reservados.</p>
+            <p>Imagens ilustrativas. Algumas fotos podem ter sido obtidas de banco gratuito como <a href="https://pixabay.com/pt/">pixabay</a>.</p>
+        </footer>
+        <script src="funcoes.js"></script>
+        <button id="btn-topo" onclick="voltarAoTopo()">↑Topo</button>
+    </body>
+</html>
